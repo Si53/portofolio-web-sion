@@ -1,0 +1,303 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sion Marcelyo Gunawan | Portfolio</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="logo">IT</div>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Experience</a>
+            <a href="#education">Education</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-text">
+                <p class="label">Website Portofolio</p>
+                <h1>Sion Marcelyo Gunawan</h1>
+                <p class="description">
+                   DevOps Enthusiast | Passionate about DevOps & Cloud Infrastructure<br>
+                </p>
+                <a href="#contact" class="btn">Contact Me</a>
+            </div>
+
+            <div class="hero-image">
+                <img src="{% static 'images/profile.png' %}" alt="Profile Photo" class="profile-image">
+            </div>
+        </section>
+
+        <section id="about" class="about-section">
+            <div class="about-container">
+
+                <div class="about-left">
+                    <p class="section-label">About Me</p>
+
+                    <h2>
+                        Information Technology Student
+                    </h2>
+
+                    <p class="about-description">
+                    I am a first-year Information Technology student with a strong interest in DevOps engineering and cloud infrastructure. I am passionate about understanding how systems work behind the scenes
+                    </p>
+
+                <div class="experience-box">
+                    <span class="experience-number">01</span>
+                    <span class="experience-text">Years Of<br>Learning Experience</span>
+                </div>
+            </div>
+
+                <div class="about-right">
+                    <p class="small-title">Let’s Talk With Me</p>
+
+                    <h3>
+                        Open For Collaboration <br> & Discussion
+                    </h3>
+
+                    <p class="about-text">
+                    Saya terbuka untuk berdiskusi mengenai project, pembelajaran,
+                    maupun pengembangan website sederhana menggunakan teknologi web.
+                    </p>
+
+                    <a href="#contact" class="email-link">
+                        sionmg93@gmail.com
+                        <span>→</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section skills-section">
+            <p class="label">Skills</p>
+            <h2>Based On :</h2>
+
+            <div class="skills-logo-grid">
+
+                <div class="skill-logo-card">
+                    <img src="{% static 'images/net.png' %}" alt="Software Defined Network">
+                    <h3>SDN</h3>
+                </div>
+
+                <div class="skill-logo-card">
+                    <img src="{% static 'images/djj.png' %}" alt="Django">
+                    <h3>Django Framework</h3>
+                </div>
+
+                <div class="skill-logo-card">
+                    <img src="{% static 'images/do.png' %}" alt="Docker">
+                    <h3>Docker</h3>
+                </div>
+
+                <div class="skill-logo-card">
+                    <img src="{% static 'images/gra.png' %}" alt="Monitoring">
+                    <h3>Monitoring</h3>
+                </div>
+
+                <div class="skill-logo-card">
+                    <img src="{% static 'images/lin.png' %}" alt="Linux">
+                    <h3>Linux</h3>
+                </div>
+
+                <div class="skill-logo-card">
+                    <img src="{% static 'images/artif.png' %}" alt="Artificial Intelligence">
+                    <h3>Artificial Intelligence</h3>
+                </div>
+
+            </div>
+
+        </section>
+
+    <section id="projects" class="section experience-section">
+
+    <p class="label">Experience</p>
+    <h2>Based On :</h2>
+    <h4>Swipe ke kanan -- > </h4><br>
+
+    <div class="experience-scroll">
+
+        <div class="experience-card">
+            <img src="{% static 'images/monito.jpeg' %}" alt="Monitoring">
+            <div class="experience-overlay">
+                <h3>NetTraining</h3>
+                <h4>Mei 2026</h4><br>
+                <p>As a participant in the NetTraining program organized by the Adaptive Network Laboratory, I gained hands-on experience in:
+                    <ul class="experience-list">   
+                    <li><strong>Grafana</strong>: Analytics and Interactive visualization Platform.</li>
+                    <li><strong>Prometheus</strong>: Using Time-Series Database and request metric data from Node-Exporter.</li>
+                    <li><strong>Node-Exporter</strong>: Reads Hardware and Operating System metrics..</li>
+                    <li><strong>Alerting Bot</strong>: Using Telegram for alert notifications.</li>
+                    <li><strong>Elastic Stack</strong>: Use Kibana for log management and analysis.</li>
+                    </ul>
+                </p>
+            </div>
+        </div>
+
+
+
+        <div class="experience-card">
+            <img src="{% static 'images/gemastik.png' %}" alt="Lomba Intern Gemastik">
+            <div class="experience-overlay">
+                <h3>internal Gemastik Competition</h3>
+                <h4>April 2026</h4><br>
+                <p>Our Team make a project named "Maggot Baik".<br>
+                 The project focuses on utilizing maggot larvae to process organic waste into valuable products such as animal feed and fertilizer. As a team member, I contributed to the development of the project by conducting research on maggot larvae and their potential applications in waste management. We also worked on designing and implementing a system for efficient waste processing using maggots, as well as creating a prototype for demonstration purposes. Through this experience, I gained valuable insights into sustainable waste management practices and the potential of innovative solutions in addressing environmental challenges.
+                </p>
+            </div>
+        </div>
+
+
+
+        <div class="experience-card">
+            <img src="{% static 'images/netdev.png' %}" alt="NetDev">
+            <div class="experience-overlay">
+                <h3>NetDev</h3>
+                <h4>January - April 2026</h4><br>
+                <p>As a participant in the NetDev program organized by the Adaptive Network Laboratory, I gained hands-on experience in:
+                    <ul class="experience-list">   
+                    <li><strong>Guided learning</strong>: Learn and Hands on Django framework and Containerization using Docker.</li>
+                    <li><strong>Review Paper</strong>: Analyze research papers related to the Software Defined Network and Cloud Computing.</li>
+                    <li><strong>Final project</strong>: Collaborated with team to develop the SDN Project, using Docker for containerization, and Grafana for monitoring.</li>
+                    <li><strong>Click Here !!!</strong><br>
+                    <div class="experience-links">
+                    <a href="https://hackmd.io/G164LlSSTlOOB7cKiFf3HQ" target="_blank">Django Documentation</a><br>
+                    <a href="https://hackmd.io/8bb_48l9RUe6mSaYzdulXQ" target="_blank">Docker Documentation</a><br>
+                    <a href="https://hackmd.io/8eqh1e9-T3m5YM1fpnNeUQ" target="_blank">Final Project Documentation</a>
+                    </div>
+                    </li>
+                    </ul>
+                </p>
+            </div>
+        </div>
+
+        <div class="experience-card">
+            <img src="{% static 'images/iot.png' %}" alt="IoT Study Group">
+            <div class="experience-overlay">
+                <h3>IoT Study Group</h3>
+                <h4>November - Present</h4><br>
+                <p>As a participant in the IoT study group program organized by the IoT Laboratory, I gained hands-on experience in:
+                    <ul class="experience-list">   
+                    <li><strong>NodeMcu</strong>: Learn and hands-on with NodeMcu and ESP32 for development IoT Projects.</li>
+                    <li><strong>Elektronika</strong>: Sensor, Actuators, and Integration.</li>
+                    <li><strong>C++ Programming</strong>: Hardware Control, Memory & Performance, Connectivity.</li>
+                    </ul>
+                </p>
+            </div>
+        </div>
+
+
+        <div class="experience-card">
+            <img src="{% static 'images/netsc.png' %}" alt="Netschool">
+            <div class="experience-overlay">
+                <h3>Netschool</h3>
+                <h4>November - Desember 2025</h4><br>
+                <p>As a participant in the Netschool study group program organized by the Adaptive Network Laboratory, I gained hands-on experience in:
+                    <ul class="experience-list">   
+                    <li><strong>Networking</strong>: Subnetting, Static & Dynamic Routing, DHCP, VLAN, and Inter-VLAN.</li>
+                    <li><strong>Linux</strong>: Basic Commands, SSH, Web Server configuration (NGINX & Apache), DNS Server, and SSL/TLS.</li>
+                    <li><strong>Python Programming</strong>: Data Structures, Loops, Conditionals, Functions, Libraries, and Object-Oriented Programming (OOP).</li>
+                    </ul>
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+        <section id="education" class="section education-section">
+
+    <p class="label">Education</p>
+
+    <h2>Riwayat Pendidikan</h2>
+
+    <div class="education-timeline">
+
+        <div class="education-card">
+            <div class="education-year">
+                2025 - Sekarang
+            </div>
+
+            <div class="education-content">
+                <div>
+                    <h3>Telkom University</h3>
+
+                    <p class="education-major">
+                        S1 Teknologi Informasi
+                    </p>
+                </div>
+
+                <div class="education-logo">
+                    <img src="{% static 'images/telkom.png' %}" alt="Telkom University">
+                </div>
+            </div>
+        </div>
+
+        <div class="education-card">
+            <div class="education-year">
+                2022 - 2025
+            </div>
+
+            <div class="education-content">
+                <div>
+                    <h3>SMAS Diponegoro Kisaran</h3>
+
+                    <p class="education-major">
+                        Jurusan IPA
+                    </p>
+                </div>
+
+                <div class="education-logo">
+                    <img src="{% static 'images/dipo.jpeg' %}" alt="SMAS Diponegoro Kisaran">
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<section id="contact" class="section contact-section">
+
+    <p class="label">Contact</p>
+
+    <h2>Lets Connect !!</h2>
+
+    <div class="contact-icons">
+
+        <!-- Email -->
+        <a href="mailto:sionmg93@gmail.com" target="_blank" class="contact-icon">
+            <i class="fa-solid fa-envelope"></i>
+        </a>
+
+        <!-- GitHub -->
+        <a href="https://github.com/Si53" target="_blank" class="contact-icon">
+            <i class="fa-brands fa-github"></i>
+        </a>
+
+        <!-- LinkedIn -->
+        <a href="https://linkedin.com/in/sion-marcelyo-gunawan-598521375" target="_blank" class="contact-icon">
+            <i class="fa-brands fa-linkedin"></i>
+        </a>
+
+        <!-- Instagram -->
+        <a href="https://instagram.com/sion_marcelyo" target="_blank" class="contact-icon">
+            <i class="fa-brands fa-instagram"></i>
+        </a>
+
+    </div>
+
+</section>
+    </main>
+
+</body>
+</html>

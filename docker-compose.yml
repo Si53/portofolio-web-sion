@@ -1,0 +1,8 @@
+services:
+  web:
+    build: .
+    container_name: sion_portofolio_web
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app
