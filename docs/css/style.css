@@ -257,6 +257,12 @@ section .skills-section h2{
 .skill-logo-card:hover::before {
     opacity: 1;
 }
+.skills-section h2 {
+    color: #ffffff;
+    font-size: 38px;
+    max-width: 980px;
+    margin-bottom: 28px;
+}
 .experience-section {
     background: #111111;
 }
