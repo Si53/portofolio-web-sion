@@ -165,6 +165,9 @@ body {
     padding-right: 40px;
     padding-left: 30px;
 }
+.small-title {
+    color: #ff1e00;
+}
 section .skills-section h2{
     color: #ff4d1a;
     font-size: 38px;
